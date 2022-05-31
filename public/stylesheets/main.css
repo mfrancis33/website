@@ -73,6 +73,7 @@ footer {
 	display: grid;
 	grid-auto-columns: 1fr;
 	height: auto;
+	padding: 8px;
 }
 
 

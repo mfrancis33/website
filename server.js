@@ -25,3 +25,4 @@ app.use(express.static(__dirname + "/public")).use("*", (req, res) => {
 
 http.createServer(app).listen(80);
 https.createServer(app).listen(443);
+console.log("Server created");
