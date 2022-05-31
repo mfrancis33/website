@@ -1,0 +1,57 @@
+/* Temporary, reorganize structure later */
+:root {
+	--dark-1: #18191c;
+	--dark-2: #202225;
+	--dark-3: #292b2f;
+	--dark-4: #2e3338;
+	--dark-5: #2f3136;
+	--dark-6: #36393f;
+	--dark-7: #40444b;
+
+	--light-1: #fdfeff;
+	--light-2: #dcddde;
+	--light-3: #b9bbbe;
+	--light-4: #96999e;
+	--light-5: #72767d;
+}
+
+/* Extra colors */
+:root {
+	--cyan-light: #1abc9c;
+	--cyan-dark: #11806a;
+	--green-light: #2ecc71;
+	--green-dark: #1f8b4c;
+	--blue-light: #3498db;
+	--blue-dark: #206694;
+	--purple-light: #9b59b6;
+	--purple-dark: #71368a;
+	--pink-light: #e91e63;
+	--pink-dark: #ad1457;
+	--yellow-light: #f1c40f;
+	--yellow-dark: #c27c0e;
+	--orange-light: #e67e22;
+	--orange-dark: #a84300;
+	--red-light: #e74c3c;
+	--red-dark: #992d22;
+	--l-gray-light: #95a5a6;
+	--l-gray-dark: #979c9f;
+	--d-gray-light: #607d8b;
+	--d-gray-dark: #546e7a;
+}
+
+/* Miscellaneous properties */
+:root {
+	--header-size: 4em;
+	--content-gap: 8px;
+	--side-width: 150px;
+	--text-font: "Open Sans", "Roboto", sans-serif;
+	--heading-font: "Open Sans", sans-serif;
+}
+
+/* Font families */
+@font-face {
+	font-family: "Open Sans";
+	src: local("Open Sans"),
+		url("/fonts/open_sans/OpenSans-VariableFont_wdth\,wght.ttf") format("truetype"),
+		url("/fonts/open_sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf") format("truetype");
+}
